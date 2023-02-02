@@ -31,8 +31,5 @@ contract Test {
     function Math(uint firstNumber, uint secondNumber) external pure returns(uint){
         return Helper.add(firstNumber, secondNumber);
     }
-    function wichIsBigger(uint x, uint y) external pure returns(uint) {
-        return Helper.decide(x, y);
-    }
 
 }
